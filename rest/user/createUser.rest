@@ -1,0 +1,12 @@
+POST http://localhost:4000/auth/createUser
+content-type: application/json
+
+{
+    "nombre": "Estith",
+    "apellido": "Alvarez", 
+    "email": "estith@gmail.com", 
+    "contrasena": "1234567", 
+    "documento": "187634526", 
+    "rol": "Admin", 
+    "estado": "Activo"
+}

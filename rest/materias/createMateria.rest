@@ -1,0 +1,9 @@
+POST http://localhost:4000/materias/createMateria
+content-type: application/json
+
+{
+    "nombre": "Matematicas",
+    "horas": "4", 
+    "docente": "Martin", 
+    "dia": "Lunes"
+}

@@ -1,0 +1,6 @@
+DELETE  http://localhost:4000/materias/deleteMateria
+content-type: application/json
+
+{
+    "id": "1"
+}

@@ -1,0 +1,11 @@
+PUT http://localhost:4000/auth/updateUser
+content-type: application/json
+
+{
+    "nombre": "Estith Jakobo", 
+    "apellido":"Alvarez", 
+    "email": "estith@gmail.com", 
+    "contrasena":"12345678", 
+    "documento":"187634526", 
+    "id":"1"
+}
